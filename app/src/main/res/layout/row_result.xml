@@ -9,8 +9,8 @@
 
     <ImageView
         android:id="@+id/ivResult"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         android:background="@android:color/transparent" />
 
     <LinearLayout
@@ -25,6 +25,8 @@
             android:id="@+id/tvTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
             android:textColor="@android:color/black"
             android:textSize="15sp" />
 
@@ -32,6 +34,8 @@
             android:id="@+id/tvPubDate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
             android:textColor="@android:color/black"
             android:textSize="13sp" />
     </LinearLayout>

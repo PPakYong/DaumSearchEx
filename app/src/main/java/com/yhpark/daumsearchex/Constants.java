@@ -6,7 +6,7 @@ package com.yhpark.daumsearchex;
 
 public class Constants {
     public final static String CLIENT_ID = "3712649264947650423";
-    public final static String API_KEY = "3c70caa7553032ce1ea4040740fc8748";
+    public final static String API_KEY = "2fbfd1feba533953d7e0fd83ea5b7489";
 
     public final static String SORT_ACCU = "accu";
     public final static String SORT_DATE = "date";
